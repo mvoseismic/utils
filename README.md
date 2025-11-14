@@ -189,6 +189,14 @@ The scripts don't work properly.
 
 Checks contents of *select.txt* for the existence of data files in MVOE_.
 
+## selectExtractLs.pl
+
+Extracts L events from a select.out that contains both L and LV events.
+
+### Example usage
+
+*cat select.out | selectExtractLs.pl > select-L.out*
+
 ## setupGlobals
 
 Sets up an environment variable, *SETUP*, which can be used by other scripts.
