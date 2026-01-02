@@ -49,7 +49,7 @@ set yyyymmdd1 = `calday $jday1 $last_year | grep Cal | awk '{print $5 $3 $4}'`
 set start_date = `echo $yyyymmdd1$hr`
 #
 else
-set yyyymmdd1 = `calday $jday1 | grep Cal | awk '{print $5 $3 $4}'`
+set yyyymmdd1 = `calday $jday1 $yyyy | grep Cal | awk '{print $5 $3 $4}'`
 set start_date = `echo $yyyymmdd1$hr`
 endif
 #

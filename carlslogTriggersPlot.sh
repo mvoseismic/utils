@@ -11,5 +11,5 @@ do
     bash doit.sh
 done
 #rm doit.sh
-mv 2025*.png /mnt/mvofls2/Seismic_Data/monitoring_data/triggers/carlslogTriggers/triggerPlots/2025/
+mv 2026*.png /mnt/mvofls2/Seismic_Data/monitoring_data/triggers/carlslogTriggers/triggerPlots/2026/
 
